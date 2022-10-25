@@ -1,0 +1,38 @@
+.container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.figure {
+    width: 330px;
+}
+
+.mycard {
+    width: 800px;
+    height: 550px;
+}
+
+.col-l {
+    padding: 30px;
+}
+
+.col-r {
+    padding: 50px 30px;
+    position: relative;
+}
+
+.p-bottom {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+	transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.flash {
+    font-size: 13px;
+}

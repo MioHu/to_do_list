@@ -1,0 +1,19 @@
+body {
+    background: url('/static/img/cloud.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#index-logo {
+    width: 100px;
+    height: 100px;
+}
+
+#title {
+    font-size: 3rem;
+}

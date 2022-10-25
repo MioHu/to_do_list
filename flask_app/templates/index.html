@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+        <div class="py-3">
+            <p class="text-center pb-3"><img src="{{ url_for('static', filename='img/logo_blue.png') }}" alt="logo" id="index-logo"></p>
+            <h1 class="fw-normal text-center pb-3" id="title">To Do List</h1>
+            <h5 class="text-center">Organize Your Work & Life</h5>
+        </div>
+        
+        <div class="d-flex justify-content-center py-3">
+            <a class="btn btn-outline-primary me-3" href="/signup">Sign up</a>
+            <a class="btn btn-outline-primary ms-3 px-3" href="login">Log in</a>
+        </div>
+
+    </div>
+</body>
+</html>

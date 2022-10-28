@@ -5,4 +5,4 @@ app = Flask(__name__)
 app.secret_key = 'menhera chan'
 bcrypt = Bcrypt(app)
 
-DATABASE = 'ToDoList'
+DATABASE = 'todolist'

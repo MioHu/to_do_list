@@ -2,6 +2,7 @@
 ## Overview
 A simple to-do list webapp based on Python and Flask. It used Bootstrap for frontend components and was deployed to Amazon EC2. This is my first solo project and the process is fun :)
 
+
 ## Technologies Used
 * Python
 * Flask

@@ -27,7 +27,7 @@ class List:
     @classmethod
     def list_with_tasks(cls, data:dict) -> object:
         if data['sort'] == 'due':
-            query = 'SELECT * FROM lists, tasks WHERE lists.id=tasks.list_id AND lists.id=%(lid)s ORDER BY CASE WHEN due_date IS NULL THEN 1 ELSE 0 END;'
+            query = 'SELECT * FROM lists, tasks WHERE lists.id=tasks.list_id AND lists.id=%(lid)s ORDER BY (CASE WHEN due_date IS NULL THEN 0 ELSE 1 END) DESC, due_date;'
         elif data['sort'] == 'alpha':
             query = 'SELECT * FROM lists, tasks WHERE lists.id=tasks.list_id AND lists.id=%(lid)s ORDER BY content;'
         elif data['sort'] == 'create':

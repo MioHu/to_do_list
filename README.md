@@ -19,7 +19,7 @@ A simple to-do list webapp based on Python and Flask. It used Bootstrap for fron
 * Set task due date
 * Mark task compelete
 * Mark list or task with a star
-* Share list to other users
+* Share list with other users
 * Sort tasks by due date/alphabetically/creation date
 * Bootstrap Collapse component
 * Delete confirmation modal
@@ -40,7 +40,7 @@ A simple to-do list webapp based on Python and Flask. It used Bootstrap for fron
 ![list](/screenshots/task_crud.gif)
 ![sort](/screenshots/sort.gif)
 
-### Share list to another user
+### Share list with another user
 
 * Search user by email
 

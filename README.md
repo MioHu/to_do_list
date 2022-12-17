@@ -1,2 +1,18 @@
-# to_do_list
-http://54.191.89.24
+# To Do List
+## Overview
+
+
+## Technologies Used
+* Python
+* Flask
+* Jinja2
+* MySQL
+* HTML
+* CSS
+* Bootstrap
+* Amazon EC2
+
+## Features
+
+
+## Screenshots
